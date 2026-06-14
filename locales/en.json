@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "home": {
+      "title": "ASA Synthetic Resin Roof Tile Manufacturer | Rocrown Roofing Materials",
+      "description": "Rocrown supplies ASA synthetic resin roof tiles, PVC roof sheets, UPVC hollow sheets and sandwich panels for tropical, coastal and industrial building projects."
+    },
+    "inquiry": {
+      "title": "Send Roofing Material Inquiry | Rocrown B2B Quote Form",
+      "description": "Send your roofing tile, ASA synthetic resin tile, PVC roof sheet or sandwich panel inquiry to Rocrown for factory-direct B2B quotation support."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions",
+    "applications": "Applications",
+    "factory": "Factory",
+    "contact": "Contact",
+    "quote": "Get a Quote →"
+  },
+  "home": {
+    "hero": {
+      "title": "Roofing Tile & Sandwich Panel Manufacturer for Tropical Building Projects",
+      "subtitle": "Factory-direct roofing materials engineered for UV, heavy rain, humidity, corrosion, fire safety, and large-scale building projects.",
+      "quote": "Get a Quote →",
+      "catalog": "Download Catalog ↓"
+    },
+    "productsTitle": "Our Roofing & Panel Solutions",
+    "selector": {
+      "title": "Engineered for Climate, Built for Projects.",
+      "subtitle": "Find the right solution for your environment and project type.",
+      "cta": "View Recommended Solutions →"
+    },
+    "proofTitle": "Why Importers & Contractors Choose Rocrown",
+    "applicationsTitle": "Built for a Wide Range of Applications",
+    "processTitle": "Our Export Process"
+  },
+  "products": {
+    "resinTile": {
+      "title": "ASA Synthetic Resin Roof Tile",
+      "description": "High durability, UV resistant, corrosion resistant"
+    },
+    "pvc": {
+      "title": "PVC Roof Sheet",
+      "description": "Lightweight, anti-corrosion, easy installation"
+    },
+    "sandwich": {
+      "title": "Aluminium Sandwich Panel",
+      "description": "Thermal insulation, fire safety, energy efficient"
+    },
+    "upvc": {
+      "title": "UPVC Hollow Roof Sheet",
+      "description": "Heat insulation, sound insulation, long lifespan"
+    },
+    "clear": {
+      "title": "Clear Transparent Roof Sheet",
+      "description": "High light transmission, UV protection"
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "Send Us Your Inquiry",
+      "subtitle": "Tell us your project needs. We will reply within 24 hours.",
+      "name": "Name*",
+      "company": "Company*",
+      "email": "Email*",
+      "phone": "WhatsApp / WeChat",
+      "message": "Project Details / Message*",
+      "submit": "Submit Inquiry →"
+    }
+  },
+  "inquiry": {
+    "eyebrow": "B2B Project Inquiry",
+    "title": "Tell Us Your Roofing Material Requirements",
+    "subtitle": "Share your project location, roof area, product interest and contact details. Rocrown will review your request and reply within 24 hours.",
+    "requiredNote": "Required fields are marked *",
+    "supportNote": "Factory-direct support for importers, contractors and project buyers.",
+    "asideTitle": "What Helps Us Quote Faster",
+    "submit": "Submit Inquiry →"
+  }
+}

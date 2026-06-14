@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "home": {
+      "title": "Fabricante de teja de resina sintética ASA | Rocrown",
+      "description": "Rocrown fabrica tejas de resina sintética ASA, láminas PVC, paneles sándwich y soluciones de cubierta para proyectos tropicales, costeros e industriales."
+    },
+    "inquiry": {
+      "title": "Enviar consulta de materiales de cubierta | Rocrown",
+      "description": "Envíe su consulta de tejas ASA, láminas PVC o paneles sándwich y reciba soporte de cotización B2B directo de fábrica."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "applications": "Aplicaciones",
+    "factory": "Fábrica",
+    "contact": "Contacto",
+    "quote": "Solicitar cotización →"
+  },
+  "home": {
+    "hero": {
+      "title": "Fabricante de tejas y paneles sándwich para proyectos en clima tropical",
+      "subtitle": "Materiales de cubierta directos de fábrica para rayos UV, lluvia intensa, humedad, corrosión, seguridad contra incendios y proyectos de gran escala.",
+      "quote": "Solicitar cotización →",
+      "catalog": "Descargar catálogo ↓"
+    },
+    "productsTitle": "Soluciones de cubiertas y paneles",
+    "selector": {
+      "title": "Diseñado para el clima, preparado para proyectos.",
+      "subtitle": "Encuentre la solución adecuada según ambiente y tipo de obra.",
+      "cta": "Ver soluciones recomendadas →"
+    },
+    "proofTitle": "Por qué importadores y contratistas eligen Rocrown",
+    "applicationsTitle": "Aplicaciones para diferentes tipos de proyectos",
+    "processTitle": "Nuestro proceso de exportación"
+  },
+  "products": {
+    "resinTile": {
+      "title": "Teja de resina sintética ASA",
+      "description": "Alta durabilidad, resistencia UV y resistencia a la corrosión"
+    },
+    "pvc": {
+      "title": "Lámina de techo PVC",
+      "description": "Ligera, anticorrosiva y fácil de instalar"
+    },
+    "sandwich": {
+      "title": "Panel sándwich de aluminio",
+      "description": "Aislamiento térmico, seguridad contra incendios y eficiencia energética"
+    },
+    "upvc": {
+      "title": "Lámina hueca UPVC",
+      "description": "Aislamiento térmico, reducción acústica y larga vida útil"
+    },
+    "clear": {
+      "title": "Lámina transparente para techo",
+      "description": "Alta transmisión de luz y protección UV"
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "Envíenos su consulta",
+      "subtitle": "Cuéntenos las necesidades de su proyecto. Responderemos en 24 horas.",
+      "name": "Nombre*",
+      "company": "Empresa*",
+      "email": "Correo electrónico*",
+      "phone": "WhatsApp / WeChat",
+      "message": "Detalles del proyecto / mensaje*",
+      "submit": "Enviar consulta →"
+    }
+  },
+  "inquiry": {
+    "eyebrow": "Consulta B2B de proyecto",
+    "title": "Cuéntenos sus requisitos de materiales de cubierta",
+    "subtitle": "Comparta ubicación, área de techo, producto de interés y datos de contacto. Rocrown revisará su solicitud y responderá en 24 horas.",
+    "requiredNote": "Los campos obligatorios están marcados con *",
+    "supportNote": "Soporte directo de fábrica para importadores, contratistas y compradores de proyectos.",
+    "asideTitle": "Qué nos ayuda a cotizar más rápido",
+    "submit": "Enviar consulta →"
+  }
+}

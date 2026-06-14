@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "home": {
+      "title": "Fabricant de tuiles en résine synthétique ASA | Rocrown",
+      "description": "Rocrown fournit des tuiles ASA, plaques PVC, panneaux sandwich et solutions de toiture pour projets tropicaux, côtiers et industriels."
+    },
+    "inquiry": {
+      "title": "Demande de devis toiture B2B | Rocrown",
+      "description": "Envoyez votre demande pour tuiles ASA, plaques PVC, panneaux sandwich ou plaques de toiture et recevez une réponse directe usine."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "solutions": "Solutions",
+    "applications": "Applications",
+    "factory": "Usine",
+    "contact": "Contact",
+    "quote": "Demander un devis →"
+  },
+  "home": {
+    "hero": {
+      "title": "Fabricant de tuiles de toiture et panneaux sandwich pour projets tropicaux",
+      "subtitle": "Matériaux de toiture directs usine conçus pour UV, fortes pluies, humidité, corrosion, sécurité incendie et grands projets.",
+      "quote": "Demander un devis →",
+      "catalog": "Télécharger le catalogue ↓"
+    },
+    "productsTitle": "Solutions de toiture et panneaux",
+    "selector": {
+      "title": "Conçu pour le climat, prêt pour les projets.",
+      "subtitle": "Trouvez la solution adaptée à votre environnement et à votre type de bâtiment.",
+      "cta": "Voir les solutions recommandées →"
+    },
+    "proofTitle": "Pourquoi les importateurs et entrepreneurs choisissent Rocrown",
+    "applicationsTitle": "Conçu pour une large gamme d'applications",
+    "processTitle": "Notre processus d'exportation"
+  },
+  "products": {
+    "resinTile": {
+      "title": "Tuile en résine synthétique ASA",
+      "description": "Haute durabilité, résistance UV et anticorrosion"
+    },
+    "pvc": {
+      "title": "Plaque de toiture PVC",
+      "description": "Légère, anticorrosion et facile à installer"
+    },
+    "sandwich": {
+      "title": "Panneau sandwich aluminium",
+      "description": "Isolation thermique, sécurité incendie et efficacité énergétique"
+    },
+    "upvc": {
+      "title": "Plaque creuse UPVC",
+      "description": "Isolation thermique, isolation acoustique et longue durée de vie"
+    },
+    "clear": {
+      "title": "Plaque de toiture transparente",
+      "description": "Haute transmission lumineuse et protection UV"
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "Envoyez votre demande",
+      "subtitle": "Décrivez votre projet. Nous répondrons sous 24 heures.",
+      "name": "Nom*",
+      "company": "Entreprise*",
+      "email": "E-mail*",
+      "phone": "WhatsApp / WeChat",
+      "message": "Détails du projet / message*",
+      "submit": "Envoyer la demande →"
+    }
+  },
+  "inquiry": {
+    "eyebrow": "Demande projet B2B",
+    "title": "Indiquez vos besoins en matériaux de toiture",
+    "subtitle": "Partagez le pays, la surface, le produit recherché et vos coordonnées. Rocrown analysera la demande et répondra sous 24 heures.",
+    "requiredNote": "Les champs obligatoires sont marqués *",
+    "supportNote": "Support direct usine pour importateurs, entrepreneurs et acheteurs de projets.",
+    "asideTitle": "Ce qui nous aide à chiffrer plus vite",
+    "submit": "Envoyer la demande →"
+  }
+}

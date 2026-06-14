@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "home": {
+      "title": "ASA 合成树脂瓦制造商 | Rocrown 屋面材料",
+      "description": "Rocrown 为热带、沿海、工业和农业建筑项目供应 ASA 合成树脂瓦、PVC 瓦、UPVC 中空瓦和夹芯板。"
+    },
+    "inquiry": {
+      "title": "提交屋面材料询盘 | Rocrown B2B 报价表单",
+      "description": "提交 ASA 合成树脂瓦、PVC 瓦、UPVC 瓦或夹芯板需求，获取工厂直供 B2B 报价支持。"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "solutions": "解决方案",
+    "applications": "应用场景",
+    "factory": "工厂",
+    "contact": "联系",
+    "quote": "获取报价 →"
+  },
+  "home": {
+    "hero": {
+      "title": "面向热带建筑项目的屋面瓦与夹芯板制造商",
+      "subtitle": "工厂直供屋面材料，适用于高紫外线、强降雨、潮湿、腐蚀、防火和大型建筑项目。",
+      "quote": "获取报价 →",
+      "catalog": "下载画册 ↓"
+    },
+    "productsTitle": "屋面与板材解决方案",
+    "selector": {
+      "title": "为气候设计，为项目交付。",
+      "subtitle": "根据使用环境和项目类型选择合适材料。",
+      "cta": "查看推荐方案 →"
+    },
+    "proofTitle": "为什么进口商和承包商选择 Rocrown",
+    "applicationsTitle": "适用于多种建筑应用场景",
+    "processTitle": "我们的出口流程"
+  },
+  "products": {
+    "resinTile": {
+      "title": "ASA 合成树脂瓦",
+      "description": "高耐候、抗紫外线、耐腐蚀"
+    },
+    "pvc": {
+      "title": "PVC 屋面瓦",
+      "description": "重量轻、耐腐蚀、安装方便"
+    },
+    "sandwich": {
+      "title": "铝制夹芯板",
+      "description": "保温隔热、防火安全、节能高效"
+    },
+    "upvc": {
+      "title": "UPVC 中空屋面瓦",
+      "description": "隔热、隔音、使用寿命长"
+    },
+    "clear": {
+      "title": "透明采光瓦",
+      "description": "高透光率，抗紫外线"
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "发送您的询盘",
+      "subtitle": "请告诉我们您的项目需求，我们将在 24 小时内回复。",
+      "name": "姓名*",
+      "company": "公司*",
+      "email": "邮箱*",
+      "phone": "WhatsApp / 微信",
+      "message": "项目详情 / 留言*",
+      "submit": "提交询盘 →"
+    }
+  },
+  "inquiry": {
+    "eyebrow": "B2B 项目询盘",
+    "title": "请告诉我们您的屋面材料需求",
+    "subtitle": "填写项目国家、屋面面积、意向产品和联系方式。Rocrown 将审核需求并在 24 小时内回复。",
+    "requiredNote": "必填字段已用 * 标识",
+    "supportNote": "为进口商、承包商和项目采购商提供工厂直供支持。",
+    "asideTitle": "哪些信息能帮助我们更快报价",
+    "submit": "提交询盘 →"
+  }
+}
