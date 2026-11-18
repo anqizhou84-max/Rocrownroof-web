@@ -1,0 +1,132 @@
+media:
+  input: assets
+  output: /assets
+  categories: [image]
+  rename: safe
+
+components:
+  seo:
+    type: object
+    fields:
+      - { name: title, label: SEO 标题, type: string, required: true }
+      - { name: description, label: SEO 描述, type: text, required: true }
+  product:
+    type: object
+    fields:
+      - { name: title, label: 产品名称, type: string, required: true }
+      - { name: description, label: 产品简介, type: text, required: true }
+  photo:
+    type: image
+    required: true
+    options:
+      extensions: [jpg, jpeg, png, webp, avif]
+
+content:
+  - name: homepage_media
+    label: 首页图片（所有语言）
+    type: file
+    path: content/homepage-media.json
+    format: json
+    fields:
+      - { name: hero, label: 首屏横幅, component: photo }
+      - { name: resinTile, label: ASA 树脂瓦, component: photo }
+      - { name: pvc, label: PVC 瓦, component: photo }
+      - { name: sandwich, label: 铝夹芯板, component: photo }
+      - { name: upvc, label: UPVC 中空瓦, component: photo }
+      - { name: clear, label: 透明采光瓦, component: photo }
+      - { name: industrial, label: 工业建筑, component: photo }
+      - { name: warehouse, label: 仓库, component: photo }
+      - { name: agriculture, label: 农业建筑, component: photo }
+      - { name: coastal, label: 沿海项目, component: photo }
+      - { name: commercial, label: 商业建筑, component: photo }
+  - name: languages
+    label: 多语言内容
+    type: group
+    items:
+      - name: en
+        label: English · 英文
+        type: file
+        path: locales/en.json
+        format: json
+        fields: &locale_fields
+          - name: seo
+            label: 搜索引擎信息
+            type: object
+            fields:
+              - { name: home, label: 首页 SEO, component: seo }
+              - { name: inquiry, label: 询盘页 SEO, component: seo }
+          - name: nav
+            label: 导航
+            type: object
+            fields:
+              - { name: home, label: 首页, type: string }
+              - { name: products, label: 产品, type: string }
+              - { name: solutions, label: 解决方案, type: string }
+              - { name: applications, label: 应用场景, type: string }
+              - { name: factory, label: 工厂, type: string }
+              - { name: contact, label: 联系我们, type: string }
+              - { name: quote, label: 询价按钮, type: string }
+          - name: home
+            label: 首页文案
+            type: object
+            fields:
+              - name: hero
+                label: 首屏
+                type: object
+                fields:
+                  - { name: title, label: 主标题 H1, type: string, required: true }
+                  - { name: subtitle, label: 副标题, type: text, required: true }
+                  - { name: quote, label: 询价按钮, type: string }
+                  - { name: catalog, label: 目录按钮, type: string }
+              - { name: productsTitle, label: 产品区标题, type: string }
+              - name: selector
+                label: 选型区
+                type: object
+                fields:
+                  - { name: title, label: 标题, type: string }
+                  - { name: subtitle, label: 副标题, type: text }
+                  - { name: cta, label: 推荐按钮, type: string }
+              - { name: proofTitle, label: 采购优势标题, type: string }
+              - { name: applicationsTitle, label: 应用场景标题, type: string }
+              - { name: processTitle, label: 出口流程标题, type: string }
+          - name: products
+            label: 五大产品
+            type: object
+            fields:
+              - { name: resinTile, label: ASA 树脂瓦, component: product }
+              - { name: pvc, label: PVC 瓦, component: product }
+              - { name: sandwich, label: 铝夹芯板, component: product }
+              - { name: upvc, label: UPVC 中空瓦, component: product }
+              - { name: clear, label: 透明采光瓦, component: product }
+          - name: contact
+            label: 首页询盘
+            type: object
+            fields:
+              - name: form
+                label: 表单文案
+                type: object
+                fields:
+                  - { name: title, label: 标题, type: string }
+                  - { name: subtitle, label: 副标题, type: text }
+                  - { name: name, label: 姓名提示, type: string }
+                  - { name: company, label: 公司提示, type: string }
+                  - { name: email, label: 邮箱提示, type: string }
+                  - { name: phone, label: 电话提示, type: string }
+                  - { name: message, label: 留言提示, type: string }
+                  - { name: submit, label: 提交按钮, type: string }
+          - name: inquiry
+            label: 独立询盘页
+            type: object
+            fields:
+              - { name: eyebrow, label: 页首说明, type: string }
+              - { name: title, label: 主标题 H1, type: string, required: true }
+              - { name: subtitle, label: 副标题, type: text }
+              - { name: requiredNote, label: 必填提示, type: string }
+              - { name: supportNote, label: 支持说明, type: text }
+              - { name: asideTitle, label: 边栏标题, type: string }
+              - { name: submit, label: 提交按钮, type: string }
+      - { name: es, label: Español · 西班牙语, type: file, path: locales/es.json, format: json, fields: *locale_fields }
+      - { name: fr, label: Français · 法语, type: file, path: locales/fr.json, format: json, fields: *locale_fields }
+      - { name: ar, label: العربية · 阿拉伯语, type: file, path: locales/ar.json, format: json, fields: *locale_fields }
+      - { name: ru, label: Русский · 俄语, type: file, path: locales/ru.json, format: json, fields: *locale_fields }
+      - { name: zh, label: 中文, type: file, path: locales/zh.json, format: json, fields: *locale_fields }

@@ -1,0 +1,13 @@
+{
+  "hero": "/assets/hero-roofing.png",
+  "resinTile": "/assets/asa-resin-roof-tile-selected.jpg",
+  "pvc": "/assets/pvc-roof-sheet-poster.png",
+  "sandwich": "/assets/aluminium-sandwich-panel-stack.png",
+  "upvc": "/assets/upvc-hollow-roof-sheet-selected.jpg",
+  "clear": "/assets/clear-transparent-roof-sheet-product.jpg",
+  "industrial": "/assets/aluminium-sandwich-panel-application.jpg",
+  "warehouse": "/assets/asa-resin-roof-tile-loading.jpg",
+  "agriculture": "/assets/clear-transparent-roof-sheet-application.jpg",
+  "coastal": "/assets/hero-banner-crop.jpg",
+  "commercial": "/assets/aluminium-sandwich-panel-profile.png"
+}

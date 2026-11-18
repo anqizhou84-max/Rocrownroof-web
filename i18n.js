@@ -183,6 +183,30 @@ function changeLanguage(lang) {
   window.location.href = buildLangUrl(lang);
 }
 
+// CMS 图片供所有语言共用。读取失败时，保留 HTML 内的原图。
+async function applyHomepageMedia() {
+  const images = document.querySelectorAll("img[data-cms-image]");
+  if (!images.length) return;
+
+  try {
+    const response = await fetch("/content/homepage-media.json");
+    if (!response.ok) return;
+    const media = await response.json();
+
+    for (const image of images) {
+      const source = media?.[image.dataset.cmsImage];
+      if (typeof source !== "string" || !/^\/assets\/[\w.-]+\.(?:jpe?g|png|webp|avif)$/i.test(source)) continue;
+      const url = new URL(source, window.location.origin).href;
+      if (url === image.src) continue;
+      const original = image.src;
+      image.addEventListener("error", () => { image.src = original; }, { once: true });
+      image.src = url;
+    }
+  } catch {
+    // 图片清单不可用时，无需中断页面渲染。
+  }
+}
+
 // 初始化语言。优先 URL，其次 localStorage，最后英文。
 async function initI18n() {
   const pathLang = getLangFromPath();
@@ -194,6 +218,8 @@ async function initI18n() {
     window.location.replace(buildLangUrl(savedLang));
     return;
   }
+
+  void applyHomepageMedia();
 
   try {
     fallbackDict = await loadLocale(I18N_CONFIG.defaultLang);

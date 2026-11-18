@@ -37,3 +37,16 @@ is in `/i18n.js` and supports:
 - automatic `html lang`
 - RTL direction for Arabic
 - SEO title, description, canonical, and hreflang updates
+
+## 内容后台（Pages CMS）
+
+[打开 Pages CMS](https://app.pagescms.org/)，使用 GitHub 登录。首次设置时，
+将 Pages CMS GitHub App 的访问范围限定在
+`anqizhou84-max/Rocrownroof-web`，再打开仓库的 `main` 分支。
+仓库内的 `.pages.yml` 已预设管理界面，无需在后台重新创建配置。
+
+- **多语言内容**：分别编辑六种语言的首页 H1、产品介绍、导航、询盘页文案和 SEO 标题、描述。保存不会自动翻译其他语言。
+- **首页图片（所有语言）**：从图库选择或上传图片后，保存对应字段。产品图同时用于首页产品卡和 Products 超级菜单。上传后生成安全的英文文件名，建议使用 JPG、PNG 或 WebP。
+- **发布**：保存会写入 GitHub 仓库。GitHub Pages 完成重新部署后，可在网站上核对对应语言。保留仍在页面使用的旧图片，不要直接删除。
+
+当前 SEO 文字和新图片通过网站现有的前端脚本加载。CMS 不会重写 HTML 源码里的默认文案，也不改动 URL、canonical 或 hreflang。此后台不储存客户询盘、密码或其他私密数据，博客发布和询盘收件不在本次接入范围内。
