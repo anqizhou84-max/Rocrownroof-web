@@ -36,7 +36,12 @@ is in `/i18n.js` and supports:
 - English fallback
 - automatic `html lang`
 - RTL direction for Arabic
-- SEO title, description, canonical, and hreflang updates
+- localized SEO title and description updates
+
+Canonical and hreflang URLs are set directly in the HTML. When adding a
+language or page, update the matching alternate links and `sitemap.xml`.
+The root homepage and root inquiry aliases point to their English equivalents
+and are intentionally excluded from the sitemap.
 
 ## 内容后台（Pages CMS）
 

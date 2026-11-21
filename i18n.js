@@ -62,8 +62,8 @@ function updateDocumentDirection(lang) {
   document.documentElement.dir = config?.rtl ? "rtl" : "ltr";
 }
 
-// 更新 title、meta description、canonical、hreflang，服务多语言 SEO。
-function updateSeo(lang) {
+// 标题和描述读取语言包；canonical 和 hreflang 保留 HTML 中的固定 URL。
+function updateSeo() {
   const pageKey = getPageName() ? "inquiry" : "home";
   const seo = t(`seo.${pageKey}`);
 
@@ -73,21 +73,6 @@ function updateSeo(lang) {
   if (description && seo.description) {
     description.setAttribute("content", seo.description);
   }
-
-  const canonical = document.querySelector('link[rel="canonical"]');
-  if (canonical) {
-    canonical.setAttribute("href", buildLangUrl(lang));
-  }
-
-  document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((link) => {
-    const hreflang = link.getAttribute("hreflang");
-    if (I18N_CONFIG.supportedLangs[hreflang]) {
-      link.setAttribute("href", buildLangUrl(hreflang));
-    }
-    if (hreflang === "x-default") {
-      link.setAttribute("href", buildLangUrl(I18N_CONFIG.defaultLang));
-    }
-  });
 }
 
 // 扫描页面里带 data-i18n 的元素并替换文案。
@@ -230,7 +215,7 @@ async function initI18n() {
   }
 
   updateDocumentDirection(currentLang);
-  updateSeo(currentLang);
+  updateSeo();
   translatePage();
   localizeInternalLinks();
   mountLanguageSwitcher();
