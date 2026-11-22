@@ -64,7 +64,17 @@ function updateDocumentDirection(lang) {
 
 // 标题和描述读取语言包；canonical 和 hreflang 保留 HTML 中的固定 URL。
 function updateSeo() {
-  const pageKey = getPageName() ? "inquiry" : "home";
+  const { pathname } = window.location;
+  const lang = getLangFromPath();
+  const pagePath = lang ? pathname.slice(lang.length + 1) : pathname;
+  let pageKey;
+  if (pagePath === "/inquiry.html") {
+    pageKey = "inquiry";
+  } else if (pagePath === "" || pagePath === "/" || pagePath === "/index.html") {
+    pageKey = "home";
+  } else {
+    return;
+  }
   const seo = t(`seo.${pageKey}`);
 
   if (seo.title) document.title = seo.title;
