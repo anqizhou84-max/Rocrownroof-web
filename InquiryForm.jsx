@@ -89,7 +89,7 @@ export default function InquiryForm({
     } catch (error) {
       setStatus({
         type: "error",
-        message: "Submission failed. Please email sales@cnrocrown.com or try again.",
+        message: "Submission failed. Please email angeline@cnrocrown.com or try again.",
       });
     } finally {
       setSubmitting(false);

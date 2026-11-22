@@ -1,5 +1,5 @@
 export default function WhatsAppButton({
-  phone = "8613424204572",
+  phone = "8618127201735",
   message = "Hello, I am interested in your products. Please send me more details.",
 }) {
   const href = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
