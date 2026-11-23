@@ -19,6 +19,7 @@
     "quote": "Get a Quote →"
   },
   "home": {
+    "productionLines": "12 production lines",
     "hero": {
       "title": "Roofing Tile & Sandwich Panel Manufacturer for Tropical Building Projects",
       "subtitle": "Factory-direct roofing materials engineered for UV, heavy rain, humidity, corrosion, fire safety, and large-scale building projects.",
@@ -51,6 +52,10 @@
     "upvc": {
       "title": "UPVC Hollow Roof Sheet",
       "description": "Heat insulation, sound insulation, long lifespan"
+    },
+    "rockWool": {
+      "title": "Rock Wool Sandwich Panel",
+      "description": "Rock wool core with flat or ribbed panel options"
     },
     "clear": {
       "title": "Clear Transparent Roof Sheet",

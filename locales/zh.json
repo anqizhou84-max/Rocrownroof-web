@@ -19,6 +19,7 @@
     "quote": "获取报价 →"
   },
   "home": {
+    "productionLines": "12 条生产线",
     "hero": {
       "title": "面向热带建筑项目的屋面瓦与夹芯板制造商",
       "subtitle": "工厂直供屋面材料，适用于高紫外线、强降雨、潮湿、腐蚀、防火和大型建筑项目。",
@@ -51,6 +52,10 @@
     "upvc": {
       "title": "UPVC 中空屋面瓦",
       "description": "隔热、隔音、使用寿命长"
+    },
+    "rockWool": {
+      "title": "岩棉夹芯板",
+      "description": "岩棉芯材，可选平面或压筋板型"
     },
     "clear": {
       "title": "透明采光瓦",

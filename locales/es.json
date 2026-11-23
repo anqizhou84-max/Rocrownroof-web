@@ -19,6 +19,7 @@
     "quote": "Solicitar cotización →"
   },
   "home": {
+    "productionLines": "12 líneas de producción",
     "hero": {
       "title": "Fabricante de tejas y paneles sándwich para proyectos en clima tropical",
       "subtitle": "Materiales de cubierta directos de fábrica para rayos UV, lluvia intensa, humedad, corrosión, seguridad contra incendios y proyectos de gran escala.",
@@ -51,6 +52,10 @@
     "upvc": {
       "title": "Lámina hueca UPVC",
       "description": "Aislamiento térmico, reducción acústica y larga vida útil"
+    },
+    "rockWool": {
+      "title": "Panel sándwich de lana de roca",
+      "description": "Núcleo de lana de roca con acabado liso o nervado"
     },
     "clear": {
       "title": "Lámina transparente para techo",

@@ -19,6 +19,7 @@
     "quote": "Demander un devis →"
   },
   "home": {
+    "productionLines": "12 lignes de production",
     "hero": {
       "title": "Fabricant de tuiles de toiture et panneaux sandwich pour projets tropicaux",
       "subtitle": "Matériaux de toiture directs usine conçus pour UV, fortes pluies, humidité, corrosion, sécurité incendie et grands projets.",
@@ -51,6 +52,10 @@
     "upvc": {
       "title": "Plaque creuse UPVC",
       "description": "Isolation thermique, isolation acoustique et longue durée de vie"
+    },
+    "rockWool": {
+      "title": "Panneau sandwich en laine de roche",
+      "description": "Âme en laine de roche et finition plane ou nervurée"
     },
     "clear": {
       "title": "Plaque de toiture transparente",
