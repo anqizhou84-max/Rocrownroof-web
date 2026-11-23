@@ -54,6 +54,27 @@
   margin: 0 0 18px;
 }
 
+.catalogue-intro h1 {
+  margin: 0 0 12px;
+  font-size: 2.25rem;
+  line-height: 1.15;
+}
+
+.catalogue-intro p {
+  max-width: 720px;
+}
+
+.catalogue-figure {
+  margin: 16px 0 24px;
+}
+
+.catalogue-figure img {
+  width: min(100%, 720px);
+  height: 240px;
+  object-fit: contain;
+  object-position: left center;
+}
+
 .product-crumb {
   margin-top: 24px;
   color: var(--muted);
@@ -130,6 +151,14 @@
 }
 
 @media (max-width: 600px) {
+  .catalogue-intro h1 {
+    font-size: 1.65rem;
+  }
+
+  .catalogue-figure img {
+    height: 190px;
+  }
+
   .product-lead {
     min-height: 300px;
   }
